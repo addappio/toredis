@@ -30,5 +30,5 @@ setup(
     license="http://www.apache.org/licenses/LICENSE-2.0",
     packages=['toredis'],
     test_suite='tests.all_tests',
-    install_requires=['tornado', 'hiredis'],
+    install_requires=['tornado==4.4.1', 'hiredis'],
 )
